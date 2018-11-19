@@ -1,0 +1,62 @@
+.Main-button{
+  width: 50%;
+}
+
+.Main-container{
+  width: 100vw;
+  height: 90vh;
+  background: rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Main-marco{
+  width: 50%;
+  height: 50%;
+}
+.Main-form{
+  width: 80%;
+}
+
+.Main-form , .Main-marco{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Main-input{
+  width: 70%;
+  height: 3rem;
+}
+.Main-titulo{
+  font-size: 1rem;
+}
+
+.Main-titulo, .Main-input{
+  margin-bottom: 10%;
+}
+
+.u-error {
+  padding: 1rem;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #CC7A6F;
+}
+
+@media screen and (min-width: 64em) {
+  .AuthForm { max-width: 50vw; }
+
+  .Main-titulo{
+    font-size: 3rem;
+  }
+
+  .Main-marco{
+    width: 70%;
+    height: 70%;
+  }
+}

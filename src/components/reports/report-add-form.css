@@ -1,0 +1,33 @@
+.AddForm {
+  max-width: 80vw;
+  width: 25%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.AddForm input,
+.AddForm select,
+.react-datepicker__input-container,
+textarea {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+textarea{
+  resize: none;
+}
+
+.AddForm-button{
+  border-radius: 10px;
+}
+@media screen and (min-width: 64em) {
+  .AddForm { max-width: 50vw; }
+}
+
+.reporte-titulo {
+  margin: 4px;
+  padding: 10px;
+  text-align: center;
+
+}

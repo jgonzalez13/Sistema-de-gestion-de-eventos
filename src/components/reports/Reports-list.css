@@ -1,0 +1,57 @@
+.ReportsList-item {
+  width: 25%;
+  margin: 2%;
+  list-style-type: none;
+  background-color: #FFF;
+  border-radius: .5rem;
+  box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .25);
+}
+
+.ReportsList-link img {
+  border-radius: .5rem .5rem 0 0;
+  filter: grayscale(0);
+  transition: all .3s ease-out;
+}
+
+.ReportsList-link:hover img { filter: grayscale(1); }
+
+.ReportsList-link h2 {
+  padding: 1rem;
+  font-size: 5vw;
+}
+
+.ReportsList-item p { padding: 1rem; }
+
+.ReportsList-item .fa { padding-right: 1vw; }
+
+.ReportsList-item b { padding-right: 5vw; }
+
+@media screen and (min-width: 48em) {
+  .ReportsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .ReportsList-item { 
+    width: 25%;
+    margin: 2%;
+  }
+
+  .ReportsList-item h2 { font-size: 1.25rem; }
+}
+
+@media screen and (min-width: 64em) {
+  .ReportsList {
+    margin: auto;
+    max-width: 1200px;
+  }
+
+  .ReportsList-item { width: 30%; }
+}
+
+.reportes-titulo {
+  margin: 4px;
+  padding: 10px;
+  text-align: center;
+}

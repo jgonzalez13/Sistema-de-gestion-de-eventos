@@ -1,0 +1,37 @@
+{
+  "name": "edteam-cursos-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jonmircha.github.io/edteam-cursos-react",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonmircha/edteam-cursos-react.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "firebase": "^5.2.0",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3",
+    "prop-types": "^15.6.2",
+    "pure-css": "^1.0.4",
+    "react": "^15.5.4",
+    "react-datepicker": "^0.46.0",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1",
+    "react-select": "^1.0.0-rc.3",
+    "uid": "^0.0.2",
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b gh-pages -r https://github.com/jonmircha/edteam-cursos-react.git"
+  }
+}
